@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '9.0'
   spec.source       = { :git => "https://github.com/phamdinhduc795397/Coordinator.git", :tag => spec.version }
   spec.module_name = 'ModernCoordinator'
-  spec.source_files = 'Coordinator/Classes/*.swift'
+  spec.source_files = 'ModernCoordinator/Classes/*.swift'
   spec.exclude_files = "Classes/Exclude"
 end
 
