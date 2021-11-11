@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double CoordinatorVersionNumber;
-FOUNDATION_EXPORT const unsigned char CoordinatorVersionString[];
+FOUNDATION_EXPORT double ModernCoordinatorVersionNumber;
+FOUNDATION_EXPORT const unsigned char ModernCoordinatorVersionString[];
 

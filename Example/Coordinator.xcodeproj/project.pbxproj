@@ -370,11 +370,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Coordinator_Example/Pods-Coordinator_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Coordinator/Coordinator.framework",
+				"${BUILT_PRODUCTS_DIR}/ModernCoordinator/ModernCoordinator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Coordinator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ModernCoordinator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

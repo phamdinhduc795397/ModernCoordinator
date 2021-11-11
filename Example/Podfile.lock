@@ -1,16 +1,16 @@
 PODS:
-  - Coordinator (0.1.0)
+  - ModernCoordinator (0.0.1)
 
 DEPENDENCIES:
-  - Coordinator (from `../`)
+  - ModernCoordinator (from `../`)
 
 EXTERNAL SOURCES:
-  Coordinator:
+  ModernCoordinator:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Coordinator: 57f84417f5c185ecd0458427abc9b8479b62aab1
+  ModernCoordinator: 26ce2dadf1529fbc9a9c37d5291c7f45fde78a7a
 
-PODFILE CHECKSUM: e68d38aa092ab5abb7e002e5a18dfd49f915559a
+PODFILE CHECKSUM: beac5da20cbba9d13ca19b0aa2da3d5a6069b47c
 
 COCOAPODS: 1.11.2

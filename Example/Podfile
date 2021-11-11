@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'Coordinator_Example' do
-  pod 'Coordinator', :path => '../'
+  pod 'ModernCoordinator', :path => '../'
 
   target 'Coordinator_Tests' do
     inherit! :search_paths

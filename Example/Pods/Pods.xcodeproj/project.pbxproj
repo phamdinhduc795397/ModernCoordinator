@@ -7,36 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07003B8EC8743A3B4027667180CE96A6 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67CEDDF6CA9C8ADC023B2D6300822D2 /* Router.swift */; };
 		098589A28C493A3E7420F73AEA88819A /* Pods-Coordinator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BE37BD72F77D099E003CE3E27305B4 /* Pods-Coordinator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		279A45E2D0A32EFFBB1492DBCF1F4D20 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4254BDAC5E0B93F600120762362ECB /* Coordinator.swift */; };
+		09CF40B409B1AC2603DEC64C2D6D9B1B /* Pods-Coordinator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9824026638FF478CABA59DD1AAB1D66 /* Pods-Coordinator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		179C435DC3140C4578325693D8F1147F /* ModernCoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E49FFF98C85544C3399ACF519F1BA1B /* ModernCoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21345FFA515C4A1BD80A706B948FD458 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAABEF0605334CD4DCF3663DC3D9A83E /* BaseCoordinator.swift */; };
 		2A4F69044492388AC7A43B3622634645 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3800B4BFA3AF84ACFBBEE88F4F314C59 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF061211F197B7B2F89B076A79AFFC /* Presentable.swift */; };
-		3B1DF8BFACDB8DC8D4303F9AB9F23020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		48D26E8C386D509B2486E1EB022DF12F /* StrongRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633681B99661A3222D8CA71C545D55BF /* StrongRouter.swift */; };
-		5826D8141DB67A11D425FA0421D77A1C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0657643EC5A1A097EB3A1BD5B75AA33 /* Router.swift */; };
-		7B16F8E6A4D9C0BCD3FCDADA8934EDAA /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AA91B5B349362F70F6CCBEB6DD081 /* NavigationCoordinator.swift */; };
-		857ADC62AB3B1C1A9ABFDD59C36B5F70 /* ViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2136524C4C86AC5362D00C4004CD8BDE /* ViewTransition.swift */; };
-		8AD0CA8D3F0627D7D75A07245DD4690E /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4873F57B7AB8F9F85935A299407A69 /* BaseCoordinator.swift */; };
-		999B1A2575C4561C213F3EF2794EF7E5 /* Pods-Coordinator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E4BB7F0A32214AD5A7B7D3710BF3B /* Pods-Coordinator_Example-dummy.m */; };
-		9B6D4CA1C662CA78B6F9426C632BBFC4 /* Coordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCF790A16EF5572054421288A977B1 /* Coordinator-dummy.m */; };
-		A7EBF1B541BA1C52FE6661B91D26CBA4 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B295F5FCD81A943A2C7618E44DF4FBD /* Route.swift */; };
-		AF2E139E1E1B37799FD4ABAFDA5B5BFF /* Coordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A6A6DBA3F89163AA75F6A5273655EA /* Coordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C239A3AFBA6639F2001F52D42B736DE1 /* ViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37F5EA29483DF770732A7FA0AFE62FB /* ViewCoordinator.swift */; };
-		D21F2ACD5E7AEDC3DD95E7BF3C5C78BF /* UnownedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC7767AB0E32557FDA85354AC59209E /* UnownedRouter.swift */; };
+		36C6C7378DDD8B116A48F24AA59BE96B /* ViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BC2CE900B35F5CDBE23ECEAB8F022 /* ViewTransition.swift */; };
+		541B8E4506481AD115F928B60671C499 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C23742B675AE8C8EBE9162E30D4270 /* Route.swift */; };
+		6C440F2A296F4353EE6DCF031775F020 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934452297CDE4C710BE477265318A268 /* NavigationCoordinator.swift */; };
+		7742783C5730117358D9B4517FBBA782 /* Pods-Coordinator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E4BB7F0A32214AD5A7B7D3710BF3B /* Pods-Coordinator_Example-dummy.m */; };
+		83C894F093E7C0E75B95273CD14735D5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC84C003703013C1B1C05BE767FD05F /* Coordinator.swift */; };
+		9041606F9B28A97EBA809D06F77DF1CE /* ViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615A3046FBAC3043EB6C350FF0B059F0 /* ViewCoordinator.swift */; };
+		9BA9D4C8D0DD7369FBE3C007CAA692D9 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9423EDF7139BDFCB6BDA46A55FC0ED6A /* Transition.swift */; };
+		BD686CC039FEF6280C55CC07DBD1AA6E /* StrongRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB088D647301BD0E0406FEDBAAE9FA3 /* StrongRouter.swift */; };
+		C9118695AAD927250F944C0ECE3DA427 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C992A58AF63BA428DFD444C32C6DD045 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51664E65DF801FA3E93467B639FC8BE /* Presentable.swift */; };
+		CB3FB8ABF555845F0D1E7E69CFAA6BD8 /* ModernCoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 031A97DB495E25CF91005DDA093B0C2E /* ModernCoordinator-dummy.m */; };
+		D2E8693B46879167BB7BB982599E8A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D439DF7DE89C292A5070215577D7F98F /* UnownedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D07A919EA681DD230452AAECCC3E7C2 /* UnownedRouter.swift */; };
 		D78BB5215B5A4581ECABF9E97007C1AB /* Pods-Coordinator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BC4171B2D88D2F95E2C1066739B0EC /* Pods-Coordinator_Tests-dummy.m */; };
-		E7E187136D054D9C1071E04BC6B8A6AB /* Pods-Coordinator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9824026638FF478CABA59DD1AAB1D66 /* Pods-Coordinator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED5EE9695C0933652AE0353DACD71B9E /* NavigationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFBE893444C70EBB9B3CE9A624F98DC /* NavigationTransition.swift */; };
-		F0ADFE783F6062E3834F135438C70242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FF01CA0BB2A7EF306C5A081E8AAC1675 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49230E3060962955E7F5A3968CDC656D /* Transition.swift */; };
+		ED33366F98A14FA426A656F3C394E34E /* NavigationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3EEA8F6E0F2F65B59004889FFF7B5 /* NavigationTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3A148C8A5AD6B844C91A1EB7507B5CFB /* PBXContainerItemProxy */ = {
+		7BD675EC29570DF3036A41E031D6D199 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B878281CE2A3E42BAF4B6DFC284919E7;
-			remoteInfo = Coordinator;
+			remoteGlobalIDString = 56178A6F6C60E9ECA19A522193FD9422;
+			remoteInfo = ModernCoordinator;
 		};
 		E2305C674101D864300DF5D81322D9FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -49,49 +49,49 @@
 
 /* Begin PBXFileReference section */
 		017E4BB7F0A32214AD5A7B7D3710BF3B /* Pods-Coordinator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Coordinator_Example-dummy.m"; sourceTree = "<group>"; };
+		031A97DB495E25CF91005DDA093B0C2E /* ModernCoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModernCoordinator-dummy.m"; sourceTree = "<group>"; };
 		04C5DAF15FAC9B2BB94FB30BD20DC1C2 /* Pods-Coordinator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Coordinator_Tests.modulemap"; sourceTree = "<group>"; };
-		05A6A6DBA3F89163AA75F6A5273655EA /* Coordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Coordinator-umbrella.h"; sourceTree = "<group>"; };
-		1B295F5FCD81A943A2C7618E44DF4FBD /* Route.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Coordinator/Classes/Route.swift; sourceTree = "<group>"; };
+		0DB088D647301BD0E0406FEDBAAE9FA3 /* StrongRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrongRouter.swift; path = ModernCoordinator/Classes/StrongRouter.swift; sourceTree = "<group>"; };
+		0FC84C003703013C1B1C05BE767FD05F /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = ModernCoordinator/Classes/Coordinator.swift; sourceTree = "<group>"; };
 		2057C5802F47D347A87B48A45843CCE4 /* Pods-Coordinator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Coordinator_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2136524C4C86AC5362D00C4004CD8BDE /* ViewTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewTransition.swift; path = Coordinator/Classes/ViewTransition.swift; sourceTree = "<group>"; };
-		241AA91B5B349362F70F6CCBEB6DD081 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationCoordinator.swift; path = Coordinator/Classes/NavigationCoordinator.swift; sourceTree = "<group>"; };
-		2F656128CC725C091E5786BA4A32A290 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2FFBE893444C70EBB9B3CE9A624F98DC /* NavigationTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransition.swift; path = Coordinator/Classes/NavigationTransition.swift; sourceTree = "<group>"; };
 		34BE37BD72F77D099E003CE3E27305B4 /* Pods-Coordinator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Coordinator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3AC7767AB0E32557FDA85354AC59209E /* UnownedRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnownedRouter.swift; path = Coordinator/Classes/UnownedRouter.swift; sourceTree = "<group>"; };
 		3B2F946217000D77589A56EB56B1479C /* Pods-Coordinator_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Coordinator_Tests"; path = Pods_Coordinator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49230E3060962955E7F5A3968CDC656D /* Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = Coordinator/Classes/Transition.swift; sourceTree = "<group>"; };
+		3E49FFF98C85544C3399ACF519F1BA1B /* ModernCoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModernCoordinator-umbrella.h"; sourceTree = "<group>"; };
+		3F7905CE0C93E9C14CBA8A7CCB801CF5 /* ModernCoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModernCoordinator.modulemap; sourceTree = "<group>"; };
+		400212D4F77A08A35918B5E6DEC9E77D /* ModernCoordinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModernCoordinator.release.xcconfig; sourceTree = "<group>"; };
+		402B44C53810B4FE50757FFB0A5F272C /* ModernCoordinator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModernCoordinator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		41C23742B675AE8C8EBE9162E30D4270 /* Route.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Route.swift; path = ModernCoordinator/Classes/Route.swift; sourceTree = "<group>"; };
 		4EDF0F13C31307E1641D742FD8FDA2FE /* Pods-Coordinator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coordinator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5F0D7287FB07948433638DE361FA7A78 /* Coordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Coordinator-prefix.pch"; sourceTree = "<group>"; };
 		5FB15781F37A5174DE359ADA1D26843A /* Pods-Coordinator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coordinator_Tests-Info.plist"; sourceTree = "<group>"; };
-		619D1D72A5659E24129ED4126B8E63DF /* Coordinator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Coordinator; path = Coordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBD3A312B2363CF6778B8B70D174C81 /* ModernCoordinator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModernCoordinator; path = ModernCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		615A3046FBAC3043EB6C350FF0B059F0 /* ViewCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewCoordinator.swift; path = ModernCoordinator/Classes/ViewCoordinator.swift; sourceTree = "<group>"; };
 		61B509C92867D4A70B4E21DC88A6C3B8 /* Pods-Coordinator_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Coordinator_Example"; path = Pods_Coordinator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		633681B99661A3222D8CA71C545D55BF /* StrongRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrongRouter.swift; path = Coordinator/Classes/StrongRouter.swift; sourceTree = "<group>"; };
 		634A9EB3D948D569682D9B6844467E9C /* Pods-Coordinator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coordinator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6B07FEC49BF4CF391AE37F55E8896377 /* Pods-Coordinator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coordinator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		79A49E1366BDFB74114ECCF8221494B8 /* Pods-Coordinator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coordinator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7A4254BDAC5E0B93F600120762362ECB /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = Coordinator/Classes/Coordinator.swift; sourceTree = "<group>"; };
-		7FBF061211F197B7B2F89B076A79AFFC /* Presentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presentable.swift; path = Coordinator/Classes/Presentable.swift; sourceTree = "<group>"; };
-		85EB4DA84CE316ABDD7C7099812ADDC4 /* Coordinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Coordinator.release.xcconfig; sourceTree = "<group>"; };
 		8AE980892041D678E182C0FA25C3CC4B /* Pods-Coordinator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Coordinator_Example.modulemap"; sourceTree = "<group>"; };
-		909ED55407706A8C7D6CEB83B348BA70 /* Coordinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Coordinator.debug.xcconfig; sourceTree = "<group>"; };
-		95F66775FB07A9893965B64493BE3345 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9ABCF790A16EF5572054421288A977B1 /* Coordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Coordinator-dummy.m"; sourceTree = "<group>"; };
+		8C356002FCB578C6B3561AA63172D80A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		934452297CDE4C710BE477265318A268 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationCoordinator.swift; path = ModernCoordinator/Classes/NavigationCoordinator.swift; sourceTree = "<group>"; };
+		9423EDF7139BDFCB6BDA46A55FC0ED6A /* Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = ModernCoordinator/Classes/Transition.swift; sourceTree = "<group>"; };
 		9C7923C71CE678CFD991FC8C584885CD /* Pods-Coordinator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coordinator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D07A919EA681DD230452AAECCC3E7C2 /* UnownedRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnownedRouter.swift; path = ModernCoordinator/Classes/UnownedRouter.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE4873F57B7AB8F9F85935A299407A69 /* BaseCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseCoordinator.swift; path = Coordinator/Classes/BaseCoordinator.swift; sourceTree = "<group>"; };
+		A05464230A3A8E4A5536FFE8F0C4F3F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A6B3EEA8F6E0F2F65B59004889FFF7B5 /* NavigationTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransition.swift; path = ModernCoordinator/Classes/NavigationTransition.swift; sourceTree = "<group>"; };
+		A77772A3104AD4A738C8BC53E68F62DE /* ModernCoordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModernCoordinator-prefix.pch"; sourceTree = "<group>"; };
+		AE46D28E39A064490E1FD934ECC2135F /* ModernCoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ModernCoordinator-Info.plist"; sourceTree = "<group>"; };
+		B4AC43E541B19B5951CA8A355619F5EB /* ModernCoordinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModernCoordinator.debug.xcconfig; sourceTree = "<group>"; };
+		C67CEDDF6CA9C8ADC023B2D6300822D2 /* Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Router.swift; path = ModernCoordinator/Classes/Router.swift; sourceTree = "<group>"; };
 		C6B60D6EF09EDB9367DB3FD6694F4B56 /* Pods-Coordinator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coordinator_Example-Info.plist"; sourceTree = "<group>"; };
 		C753B52458DABBB32941A448637EC311 /* Pods-Coordinator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coordinator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C8BC4171B2D88D2F95E2C1066739B0EC /* Pods-Coordinator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Coordinator_Tests-dummy.m"; sourceTree = "<group>"; };
 		C9DCF0B848107693EABCFBAC768F070C /* Pods-Coordinator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coordinator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D9824026638FF478CABA59DD1AAB1D66 /* Pods-Coordinator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Coordinator_Example-umbrella.h"; sourceTree = "<group>"; };
 		D9FB771FE4DE52A22DEA19329F0431AE /* Pods-Coordinator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coordinator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DC3F45CDE352FBF8579869DE4BC12F85 /* Coordinator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Coordinator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E0657643EC5A1A097EB3A1BD5B75AA33 /* Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Router.swift; path = Coordinator/Classes/Router.swift; sourceTree = "<group>"; };
-		E37F5EA29483DF770732A7FA0AFE62FB /* ViewCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewCoordinator.swift; path = Coordinator/Classes/ViewCoordinator.swift; sourceTree = "<group>"; };
-		EC85880977186D8A8C73A6A87B636898 /* Coordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Coordinator-Info.plist"; sourceTree = "<group>"; };
-		F27DBBF3B628649494EF22E2FC04DF44 /* Coordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Coordinator.modulemap; sourceTree = "<group>"; };
+		DAABEF0605334CD4DCF3663DC3D9A83E /* BaseCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseCoordinator.swift; path = ModernCoordinator/Classes/BaseCoordinator.swift; sourceTree = "<group>"; };
+		E51664E65DF801FA3E93467B639FC8BE /* Presentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presentable.swift; path = ModernCoordinator/Classes/Presentable.swift; sourceTree = "<group>"; };
+		FB7BC2CE900B35F5CDBE23ECEAB8F022 /* ViewTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewTransition.swift; path = ModernCoordinator/Classes/ViewTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,33 +103,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D646183BD2D8E4B8A550A45971321270 /* Frameworks */ = {
+		4E9E22A2A079356EB5085B0A29FB8954 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0ADFE783F6062E3834F135438C70242 /* Foundation.framework in Frameworks */,
+				C9118695AAD927250F944C0ECE3DA427 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF2002F9A5D97769113A14DFC3B721AA /* Frameworks */ = {
+		BA3E7508EDD89E10356A9F6E4C2D0F7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B1DF8BFACDB8DC8D4303F9AB9F23020 /* Foundation.framework in Frameworks */,
+				D2E8693B46879167BB7BB982599E8A2E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E08A23A07997E3AFE3F16F2572B4C12 /* Products */ = {
+		1B83936685EF0F22613910845D6CE517 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				619D1D72A5659E24129ED4126B8E63DF /* Coordinator */,
-				61B509C92867D4A70B4E21DC88A6C3B8 /* Pods-Coordinator_Example */,
-				3B2F946217000D77589A56EB56B1479C /* Pods-Coordinator_Tests */,
+				48367CDE14C9A96BA884FB9A24D1CF85 /* ModernCoordinator */,
 			);
-			name = Products;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		32F484724E1C241098DA9BA369F1F552 /* Pods-Coordinator_Tests */ = {
@@ -148,26 +146,41 @@
 			path = "Target Support Files/Pods-Coordinator_Tests";
 			sourceTree = "<group>";
 		};
-		50D8DEB4A9A47AEB085D450275ECEFF1 /* Coordinator */ = {
+		48367CDE14C9A96BA884FB9A24D1CF85 /* ModernCoordinator */ = {
 			isa = PBXGroup;
 			children = (
-				BE4873F57B7AB8F9F85935A299407A69 /* BaseCoordinator.swift */,
-				7A4254BDAC5E0B93F600120762362ECB /* Coordinator.swift */,
-				241AA91B5B349362F70F6CCBEB6DD081 /* NavigationCoordinator.swift */,
-				2FFBE893444C70EBB9B3CE9A624F98DC /* NavigationTransition.swift */,
-				7FBF061211F197B7B2F89B076A79AFFC /* Presentable.swift */,
-				1B295F5FCD81A943A2C7618E44DF4FBD /* Route.swift */,
-				E0657643EC5A1A097EB3A1BD5B75AA33 /* Router.swift */,
-				633681B99661A3222D8CA71C545D55BF /* StrongRouter.swift */,
-				49230E3060962955E7F5A3968CDC656D /* Transition.swift */,
-				3AC7767AB0E32557FDA85354AC59209E /* UnownedRouter.swift */,
-				E37F5EA29483DF770732A7FA0AFE62FB /* ViewCoordinator.swift */,
-				2136524C4C86AC5362D00C4004CD8BDE /* ViewTransition.swift */,
-				7F84B0D5E985E3C44BC29D8631CCC1F0 /* Pod */,
-				F8A3BA6065A387D14506BA50B154ED9C /* Support Files */,
+				DAABEF0605334CD4DCF3663DC3D9A83E /* BaseCoordinator.swift */,
+				0FC84C003703013C1B1C05BE767FD05F /* Coordinator.swift */,
+				934452297CDE4C710BE477265318A268 /* NavigationCoordinator.swift */,
+				A6B3EEA8F6E0F2F65B59004889FFF7B5 /* NavigationTransition.swift */,
+				E51664E65DF801FA3E93467B639FC8BE /* Presentable.swift */,
+				41C23742B675AE8C8EBE9162E30D4270 /* Route.swift */,
+				C67CEDDF6CA9C8ADC023B2D6300822D2 /* Router.swift */,
+				0DB088D647301BD0E0406FEDBAAE9FA3 /* StrongRouter.swift */,
+				9423EDF7139BDFCB6BDA46A55FC0ED6A /* Transition.swift */,
+				9D07A919EA681DD230452AAECCC3E7C2 /* UnownedRouter.swift */,
+				615A3046FBAC3043EB6C350FF0B059F0 /* ViewCoordinator.swift */,
+				FB7BC2CE900B35F5CDBE23ECEAB8F022 /* ViewTransition.swift */,
+				6755FAF07F514098707DB30815AA5EAD /* Pod */,
+				524527E980C9DAB3D204E71E0A3974F4 /* Support Files */,
 			);
-			name = Coordinator;
+			name = ModernCoordinator;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		524527E980C9DAB3D204E71E0A3974F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7905CE0C93E9C14CBA8A7CCB801CF5 /* ModernCoordinator.modulemap */,
+				031A97DB495E25CF91005DDA093B0C2E /* ModernCoordinator-dummy.m */,
+				AE46D28E39A064490E1FD934ECC2135F /* ModernCoordinator-Info.plist */,
+				A77772A3104AD4A738C8BC53E68F62DE /* ModernCoordinator-prefix.pch */,
+				3E49FFF98C85544C3399ACF519F1BA1B /* ModernCoordinator-umbrella.h */,
+				B4AC43E541B19B5951CA8A355619F5EB /* ModernCoordinator.debug.xcconfig */,
+				400212D4F77A08A35918B5E6DEC9E77D /* ModernCoordinator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ModernCoordinator";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -178,14 +191,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7F84B0D5E985E3C44BC29D8631CCC1F0 /* Pod */ = {
+		6755FAF07F514098707DB30815AA5EAD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DC3F45CDE352FBF8579869DE4BC12F85 /* Coordinator.podspec */,
-				95F66775FB07A9893965B64493BE3345 /* LICENSE */,
-				2F656128CC725C091E5786BA4A32A290 /* README.md */,
+				8C356002FCB578C6B3561AA63172D80A /* LICENSE */,
+				402B44C53810B4FE50757FFB0A5F272C /* ModernCoordinator.podspec */,
+				A05464230A3A8E4A5536FFE8F0C4F3F1 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		AA931EAC39B10FC2B7732CEC1EA40C07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FBD3A312B2363CF6778B8B70D174C81 /* ModernCoordinator */,
+				61B509C92867D4A70B4E21DC88A6C3B8 /* Pods-Coordinator_Example */,
+				3B2F946217000D77589A56EB56B1479C /* Pods-Coordinator_Tests */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		AC31F81121135FE194F2212E2D4F82F2 /* Targets Support Files */ = {
@@ -201,9 +224,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F07D536E9819C46214166430B62C8256 /* Development Pods */,
+				1B83936685EF0F22613910845D6CE517 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1E08A23A07997E3AFE3F16F2572B4C12 /* Products */,
+				AA931EAC39B10FC2B7732CEC1EA40C07 /* Products */,
 				AC31F81121135FE194F2212E2D4F82F2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -233,29 +256,6 @@
 			path = "Target Support Files/Pods-Coordinator_Example";
 			sourceTree = "<group>";
 		};
-		F07D536E9819C46214166430B62C8256 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				50D8DEB4A9A47AEB085D450275ECEFF1 /* Coordinator */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F8A3BA6065A387D14506BA50B154ED9C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F27DBBF3B628649494EF22E2FC04DF44 /* Coordinator.modulemap */,
-				9ABCF790A16EF5572054421288A977B1 /* Coordinator-dummy.m */,
-				EC85880977186D8A8C73A6A87B636898 /* Coordinator-Info.plist */,
-				5F0D7287FB07948433638DE361FA7A78 /* Coordinator-prefix.pch */,
-				05A6A6DBA3F89163AA75F6A5273655EA /* Coordinator-umbrella.h */,
-				909ED55407706A8C7D6CEB83B348BA70 /* Coordinator.debug.xcconfig */,
-				85EB4DA84CE316ABDD7C7099812ADDC4 /* Coordinator.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Coordinator";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -267,60 +267,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7955756ECE4E3AD42CFDD859CDD1C5DF /* Headers */ = {
+		DE970D7DA57453B4801FC187A752C7E3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF2E139E1E1B37799FD4ABAFDA5B5BFF /* Coordinator-umbrella.h in Headers */,
+				179C435DC3140C4578325693D8F1147F /* ModernCoordinator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CE219D564969B6B884D1DCFEF02CBF9 /* Headers */ = {
+		F2743C012BAFD9313EC3FF3E42F419CA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7E187136D054D9C1071E04BC6B8A6AB /* Pods-Coordinator_Example-umbrella.h in Headers */,
+				09CF40B409B1AC2603DEC64C2D6D9B1B /* Pods-Coordinator_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A9B966508E72BA9A0070E6FAEA226976 /* Pods-Coordinator_Example */ = {
+		56178A6F6C60E9ECA19A522193FD9422 /* ModernCoordinator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FBFA795A69AF860600E48F004C6C56E /* Build configuration list for PBXNativeTarget "Pods-Coordinator_Example" */;
+			buildConfigurationList = DCEF74112913BB30D6EF8E991768CC74 /* Build configuration list for PBXNativeTarget "ModernCoordinator" */;
 			buildPhases = (
-				8CE219D564969B6B884D1DCFEF02CBF9 /* Headers */,
-				87725BD7BFE612C94910CD3D22824D6E /* Sources */,
-				D646183BD2D8E4B8A550A45971321270 /* Frameworks */,
-				E93A527EF54C7AC3B872A6732B867B8B /* Resources */,
+				DE970D7DA57453B4801FC187A752C7E3 /* Headers */,
+				F74DB591EAD071222062CFD7F55DCCE5 /* Sources */,
+				BA3E7508EDD89E10356A9F6E4C2D0F7C /* Frameworks */,
+				3213A5FAF468987F7F432536CEAC877F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				20C8CC02907F18EC0E3D0E26755733A3 /* PBXTargetDependency */,
+			);
+			name = ModernCoordinator;
+			productName = ModernCoordinator;
+			productReference = 5FBD3A312B2363CF6778B8B70D174C81 /* ModernCoordinator */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9B966508E72BA9A0070E6FAEA226976 /* Pods-Coordinator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3805E90C2653FFE15F40101C53C6AE85 /* Build configuration list for PBXNativeTarget "Pods-Coordinator_Example" */;
+			buildPhases = (
+				F2743C012BAFD9313EC3FF3E42F419CA /* Headers */,
+				F785369A0EEDF9F56694930DA2D3E0F5 /* Sources */,
+				4E9E22A2A079356EB5085B0A29FB8954 /* Frameworks */,
+				47B197BD579EE5E62AD59FA0C7CC0DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34686B5643542336ED6FE1D5A5DCD41C /* PBXTargetDependency */,
 			);
 			name = "Pods-Coordinator_Example";
 			productName = Pods_Coordinator_Example;
 			productReference = 61B509C92867D4A70B4E21DC88A6C3B8 /* Pods-Coordinator_Example */;
-			productType = "com.apple.product-type.framework";
-		};
-		B878281CE2A3E42BAF4B6DFC284919E7 /* Coordinator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3EE3ADE7F84DBF47DC9D6CFA34320C6 /* Build configuration list for PBXNativeTarget "Coordinator" */;
-			buildPhases = (
-				7955756ECE4E3AD42CFDD859CDD1C5DF /* Headers */,
-				CFB394E0605CE9C0575A9D201AEB5C8B /* Sources */,
-				FF2002F9A5D97769113A14DFC3B721AA /* Frameworks */,
-				F3007A94ED6AD67F8B33A693129E68FD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Coordinator;
-			productName = Coordinator;
-			productReference = 619D1D72A5659E24129ED4126B8E63DF /* Coordinator */;
 			productType = "com.apple.product-type.framework";
 		};
 		E26BE656F033B02B646E7056B59B8A78 /* Pods-Coordinator_Tests */ = {
@@ -360,11 +360,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1E08A23A07997E3AFE3F16F2572B4C12 /* Products */;
+			productRefGroup = AA931EAC39B10FC2B7732CEC1EA40C07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B878281CE2A3E42BAF4B6DFC284919E7 /* Coordinator */,
+				56178A6F6C60E9ECA19A522193FD9422 /* ModernCoordinator */,
 				A9B966508E72BA9A0070E6FAEA226976 /* Pods-Coordinator_Example */,
 				E26BE656F033B02B646E7056B59B8A78 /* Pods-Coordinator_Tests */,
 			);
@@ -372,21 +372,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3213A5FAF468987F7F432536CEAC877F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B197BD579EE5E62AD59FA0C7CC0DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EC06D47FA8CBCF02AABC29F3507B185 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E93A527EF54C7AC3B872A6732B867B8B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3007A94ED6AD67F8B33A693129E68FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,34 +396,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		87725BD7BFE612C94910CD3D22824D6E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				999B1A2575C4561C213F3EF2794EF7E5 /* Pods-Coordinator_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFB394E0605CE9C0575A9D201AEB5C8B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AD0CA8D3F0627D7D75A07245DD4690E /* BaseCoordinator.swift in Sources */,
-				279A45E2D0A32EFFBB1492DBCF1F4D20 /* Coordinator.swift in Sources */,
-				9B6D4CA1C662CA78B6F9426C632BBFC4 /* Coordinator-dummy.m in Sources */,
-				7B16F8E6A4D9C0BCD3FCDADA8934EDAA /* NavigationCoordinator.swift in Sources */,
-				ED5EE9695C0933652AE0353DACD71B9E /* NavigationTransition.swift in Sources */,
-				3800B4BFA3AF84ACFBBEE88F4F314C59 /* Presentable.swift in Sources */,
-				A7EBF1B541BA1C52FE6661B91D26CBA4 /* Route.swift in Sources */,
-				5826D8141DB67A11D425FA0421D77A1C /* Router.swift in Sources */,
-				48D26E8C386D509B2486E1EB022DF12F /* StrongRouter.swift in Sources */,
-				FF01CA0BB2A7EF306C5A081E8AAC1675 /* Transition.swift in Sources */,
-				D21F2ACD5E7AEDC3DD95E7BF3C5C78BF /* UnownedRouter.swift in Sources */,
-				C239A3AFBA6639F2001F52D42B736DE1 /* ViewCoordinator.swift in Sources */,
-				857ADC62AB3B1C1A9ABFDD59C36B5F70 /* ViewTransition.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F4C63A0CBC536C2E6F124DC26161F5DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -432,14 +404,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F74DB591EAD071222062CFD7F55DCCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21345FFA515C4A1BD80A706B948FD458 /* BaseCoordinator.swift in Sources */,
+				83C894F093E7C0E75B95273CD14735D5 /* Coordinator.swift in Sources */,
+				CB3FB8ABF555845F0D1E7E69CFAA6BD8 /* ModernCoordinator-dummy.m in Sources */,
+				6C440F2A296F4353EE6DCF031775F020 /* NavigationCoordinator.swift in Sources */,
+				ED33366F98A14FA426A656F3C394E34E /* NavigationTransition.swift in Sources */,
+				C992A58AF63BA428DFD444C32C6DD045 /* Presentable.swift in Sources */,
+				541B8E4506481AD115F928B60671C499 /* Route.swift in Sources */,
+				07003B8EC8743A3B4027667180CE96A6 /* Router.swift in Sources */,
+				BD686CC039FEF6280C55CC07DBD1AA6E /* StrongRouter.swift in Sources */,
+				9BA9D4C8D0DD7369FBE3C007CAA692D9 /* Transition.swift in Sources */,
+				D439DF7DE89C292A5070215577D7F98F /* UnownedRouter.swift in Sources */,
+				9041606F9B28A97EBA809D06F77DF1CE /* ViewCoordinator.swift in Sources */,
+				36C6C7378DDD8B116A48F24AA59BE96B /* ViewTransition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F785369A0EEDF9F56694930DA2D3E0F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7742783C5730117358D9B4517FBBA782 /* Pods-Coordinator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		20C8CC02907F18EC0E3D0E26755733A3 /* PBXTargetDependency */ = {
+		34686B5643542336ED6FE1D5A5DCD41C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Coordinator;
-			target = B878281CE2A3E42BAF4B6DFC284919E7 /* Coordinator */;
-			targetProxy = 3A148C8A5AD6B844C91A1EB7507B5CFB /* PBXContainerItemProxy */;
+			name = ModernCoordinator;
+			target = 56178A6F6C60E9ECA19A522193FD9422 /* ModernCoordinator */;
+			targetProxy = 7BD675EC29570DF3036A41E031D6D199 /* PBXContainerItemProxy */;
 		};
 		A9E51E87605D2A0D80D8285EA5BACE58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -450,10 +450,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		242258BB3AE89ACCAC919ED674C29ED6 /* Debug */ = {
+		179A48BCB0D994DE1B93616667DEA82F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 909ED55407706A8C7D6CEB83B348BA70 /* Coordinator.debug.xcconfig */;
+			baseConfigurationReference = D9FB771FE4DE52A22DEA19329F0431AE /* Pods-Coordinator_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -462,18 +463,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Coordinator/Coordinator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Coordinator/Coordinator-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Coordinator_Example/Pods-Coordinator_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Coordinator/Coordinator.modulemap";
-				PRODUCT_MODULE_NAME = Coordinator;
-				PRODUCT_NAME = Coordinator;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Coordinator_Example/Pods-Coordinator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -546,39 +548,6 @@
 			};
 			name = Debug;
 		};
-		39E559911C79B65CD85F551E3FD93AA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EDF0F13C31307E1641D742FD8FDA2FE /* Pods-Coordinator_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Coordinator_Example/Pods-Coordinator_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Coordinator_Example/Pods-Coordinator_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		41E0EDE80FB9DCE9D9B56434C0508226 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 79A49E1366BDFB74114ECCF8221494B8 /* Pods-Coordinator_Tests.debug.xcconfig */;
@@ -611,41 +580,9 @@
 			};
 			name = Debug;
 		};
-		81EAF6992C4A27FC0C3D2C0D1189F33A /* Debug */ = {
+		B78A96B427298F4548BF967132CA3F57 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9FB771FE4DE52A22DEA19329F0431AE /* Pods-Coordinator_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Coordinator_Example/Pods-Coordinator_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Coordinator_Example/Pods-Coordinator_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AAB49265FB238C435E6BEF30A878A320 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85EB4DA84CE316ABDD7C7099812ADDC4 /* Coordinator.release.xcconfig */;
+			baseConfigurationReference = 400212D4F77A08A35918B5E6DEC9E77D /* ModernCoordinator.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -655,18 +592,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Coordinator/Coordinator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Coordinator/Coordinator-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ModernCoordinator/ModernCoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModernCoordinator/ModernCoordinator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Coordinator/Coordinator.modulemap";
-				PRODUCT_MODULE_NAME = Coordinator;
-				PRODUCT_NAME = Coordinator;
+				MODULEMAP_FILE = "Target Support Files/ModernCoordinator/ModernCoordinator.modulemap";
+				PRODUCT_MODULE_NAME = ModernCoordinator;
+				PRODUCT_NAME = ModernCoordinator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -736,6 +673,69 @@
 			};
 			name = Release;
 		};
+		D27C2B7B25C26B35C7465DF1DE85EAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EDF0F13C31307E1641D742FD8FDA2FE /* Pods-Coordinator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Coordinator_Example/Pods-Coordinator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Coordinator_Example/Pods-Coordinator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D834DF5FFEF8870B3FCE7A634F7396B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4AC43E541B19B5951CA8A355619F5EB /* ModernCoordinator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ModernCoordinator/ModernCoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModernCoordinator/ModernCoordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ModernCoordinator/ModernCoordinator.modulemap";
+				PRODUCT_MODULE_NAME = ModernCoordinator;
+				PRODUCT_NAME = ModernCoordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D9A909B7C3C5508EAF49D2506FFB983D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9DCF0B848107693EABCFBAC768F070C /* Pods-Coordinator_Tests.release.xcconfig */;
@@ -772,11 +772,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FBFA795A69AF860600E48F004C6C56E /* Build configuration list for PBXNativeTarget "Pods-Coordinator_Example" */ = {
+		3805E90C2653FFE15F40101C53C6AE85 /* Build configuration list for PBXNativeTarget "Pods-Coordinator_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81EAF6992C4A27FC0C3D2C0D1189F33A /* Debug */,
-				39E559911C79B65CD85F551E3FD93AA7 /* Release */,
+				179A48BCB0D994DE1B93616667DEA82F /* Debug */,
+				D27C2B7B25C26B35C7465DF1DE85EAF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -799,11 +799,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3EE3ADE7F84DBF47DC9D6CFA34320C6 /* Build configuration list for PBXNativeTarget "Coordinator" */ = {
+		DCEF74112913BB30D6EF8E991768CC74 /* Build configuration list for PBXNativeTarget "ModernCoordinator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				242258BB3AE89ACCAC919ED674C29ED6 /* Debug */,
-				AAB49265FB238C435E6BEF30A878A320 /* Release */,
+				D834DF5FFEF8870B3FCE7A634F7396B8 /* Debug */,
+				B78A96B427298F4548BF967132CA3F57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

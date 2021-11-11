@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Coordinator
+## ModernCoordinator
 
 Copyright (c) 2021 Duc Pham Dinh <ducpd@tech.est-rouge.com>
 
