@@ -1,0 +1,16 @@
+PODS:
+  - Coordinator (0.1.0)
+
+DEPENDENCIES:
+  - Coordinator (from `../`)
+
+EXTERNAL SOURCES:
+  Coordinator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Coordinator: 57f84417f5c185ecd0458427abc9b8479b62aab1
+
+PODFILE CHECKSUM: e68d38aa092ab5abb7e002e5a18dfd49f915559a
+
+COCOAPODS: 1.11.2

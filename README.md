@@ -22,7 +22,7 @@ pod 'Coordinator'
 
 ## Author
 
-Duc Pham Dinh, ducpd@tech.est-rouge.com
+Duc Pham, phamdinhduc795397@gmail.com
 
 ## License
 
