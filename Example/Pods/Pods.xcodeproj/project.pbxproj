@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07003B8EC8743A3B4027667180CE96A6 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67CEDDF6CA9C8ADC023B2D6300822D2 /* Router.swift */; };
+		022277994F7B664D27D8D4F4A9578FA4 /* ViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE264C007EE9B6DA7FF3D6BAB0B68C3E /* ViewCoordinator.swift */; };
 		098589A28C493A3E7420F73AEA88819A /* Pods-Coordinator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BE37BD72F77D099E003CE3E27305B4 /* Pods-Coordinator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09CF40B409B1AC2603DEC64C2D6D9B1B /* Pods-Coordinator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9824026638FF478CABA59DD1AAB1D66 /* Pods-Coordinator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		179C435DC3140C4578325693D8F1147F /* ModernCoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E49FFF98C85544C3399ACF519F1BA1B /* ModernCoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21345FFA515C4A1BD80A706B948FD458 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAABEF0605334CD4DCF3663DC3D9A83E /* BaseCoordinator.swift */; };
+		179C435DC3140C4578325693D8F1147F /* ModernCoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A4C318C32E06A3EBAB90AE8D3C30E6 /* ModernCoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2537EF821A649405E8F75754295FFF56 /* UnownedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1774B0DC929D69EEABE2823194AB0448 /* UnownedRouter.swift */; };
+		29C0381A9577A8C068ABF260C97566AC /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A0E59E6682231B180EC7612DEE22B6 /* Route.swift */; };
 		2A4F69044492388AC7A43B3622634645 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		36C6C7378DDD8B116A48F24AA59BE96B /* ViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BC2CE900B35F5CDBE23ECEAB8F022 /* ViewTransition.swift */; };
-		541B8E4506481AD115F928B60671C499 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C23742B675AE8C8EBE9162E30D4270 /* Route.swift */; };
-		6C440F2A296F4353EE6DCF031775F020 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934452297CDE4C710BE477265318A268 /* NavigationCoordinator.swift */; };
+		443FFB3B839884D63B71934CC01EEB2C /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F5E5DC14FE45150F91324C2A0F90A /* BaseCoordinator.swift */; };
+		65FE9496A4A14D069D26EE9C5EB5C94E /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA4ECF3830726B352849F17CD1BE48 /* Transition.swift */; };
 		7742783C5730117358D9B4517FBBA782 /* Pods-Coordinator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E4BB7F0A32214AD5A7B7D3710BF3B /* Pods-Coordinator_Example-dummy.m */; };
-		83C894F093E7C0E75B95273CD14735D5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC84C003703013C1B1C05BE767FD05F /* Coordinator.swift */; };
-		9041606F9B28A97EBA809D06F77DF1CE /* ViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615A3046FBAC3043EB6C350FF0B059F0 /* ViewCoordinator.swift */; };
-		9BA9D4C8D0DD7369FBE3C007CAA692D9 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9423EDF7139BDFCB6BDA46A55FC0ED6A /* Transition.swift */; };
-		BD686CC039FEF6280C55CC07DBD1AA6E /* StrongRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB088D647301BD0E0406FEDBAAE9FA3 /* StrongRouter.swift */; };
+		96D08474A516A9A04300F5C1CFC2AB48 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F63E8B775F5E131542D31AC9DC9B6C /* Presentable.swift */; };
+		AAC8E73190688D33D6B53ABB2A3D3221 /* StrongRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A423312598CBF044858DA83C8ADB0F /* StrongRouter.swift */; };
+		C6F4B7204F7819BB7C4846154133D2B4 /* ViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7E2F711CA2525782C98DEBD10A2A5 /* ViewTransition.swift */; };
 		C9118695AAD927250F944C0ECE3DA427 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C992A58AF63BA428DFD444C32C6DD045 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51664E65DF801FA3E93467B639FC8BE /* Presentable.swift */; };
-		CB3FB8ABF555845F0D1E7E69CFAA6BD8 /* ModernCoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 031A97DB495E25CF91005DDA093B0C2E /* ModernCoordinator-dummy.m */; };
+		CB3FB8ABF555845F0D1E7E69CFAA6BD8 /* ModernCoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BFB16ABB62D3FC3450ADDC5590B905 /* ModernCoordinator-dummy.m */; };
+		CBF6D61ECBA2791A7BAD4B91F8BDEBE2 /* NavigationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7806C29F7FC072F9B44245BA6CA1A62A /* NavigationTransition.swift */; };
+		CFD87181E520F4CD26874148F155BFBD /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113EB2DD4854716F36A2090C88404B0 /* NavigationCoordinator.swift */; };
 		D2E8693B46879167BB7BB982599E8A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D439DF7DE89C292A5070215577D7F98F /* UnownedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D07A919EA681DD230452AAECCC3E7C2 /* UnownedRouter.swift */; };
 		D78BB5215B5A4581ECABF9E97007C1AB /* Pods-Coordinator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BC4171B2D88D2F95E2C1066739B0EC /* Pods-Coordinator_Tests-dummy.m */; };
-		ED33366F98A14FA426A656F3C394E34E /* NavigationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3EEA8F6E0F2F65B59004889FFF7B5 /* NavigationTransition.swift */; };
+		D8F79BEE75F6335E6F55771554A4E389 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FD08554B109317C6D83AA1C373007 /* Router.swift */; };
+		F541939CD69C33CDE555A28FC1D16497 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9779CE902D388DDD7AEF73C3BC9DF829 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,49 +49,49 @@
 
 /* Begin PBXFileReference section */
 		017E4BB7F0A32214AD5A7B7D3710BF3B /* Pods-Coordinator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Coordinator_Example-dummy.m"; sourceTree = "<group>"; };
-		031A97DB495E25CF91005DDA093B0C2E /* ModernCoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModernCoordinator-dummy.m"; sourceTree = "<group>"; };
 		04C5DAF15FAC9B2BB94FB30BD20DC1C2 /* Pods-Coordinator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Coordinator_Tests.modulemap"; sourceTree = "<group>"; };
-		0DB088D647301BD0E0406FEDBAAE9FA3 /* StrongRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrongRouter.swift; path = ModernCoordinator/Classes/StrongRouter.swift; sourceTree = "<group>"; };
-		0FC84C003703013C1B1C05BE767FD05F /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = ModernCoordinator/Classes/Coordinator.swift; sourceTree = "<group>"; };
+		1774B0DC929D69EEABE2823194AB0448 /* UnownedRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnownedRouter.swift; path = Sources/Coordinator/UnownedRouter.swift; sourceTree = "<group>"; };
 		2057C5802F47D347A87B48A45843CCE4 /* Pods-Coordinator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Coordinator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		26F63E8B775F5E131542D31AC9DC9B6C /* Presentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presentable.swift; path = Sources/Coordinator/Presentable.swift; sourceTree = "<group>"; };
+		298FD08554B109317C6D83AA1C373007 /* Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Router.swift; path = Sources/Coordinator/Router.swift; sourceTree = "<group>"; };
 		34BE37BD72F77D099E003CE3E27305B4 /* Pods-Coordinator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Coordinator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3B2F946217000D77589A56EB56B1479C /* Pods-Coordinator_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Coordinator_Tests"; path = Pods_Coordinator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E49FFF98C85544C3399ACF519F1BA1B /* ModernCoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModernCoordinator-umbrella.h"; sourceTree = "<group>"; };
-		3F7905CE0C93E9C14CBA8A7CCB801CF5 /* ModernCoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModernCoordinator.modulemap; sourceTree = "<group>"; };
-		400212D4F77A08A35918B5E6DEC9E77D /* ModernCoordinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModernCoordinator.release.xcconfig; sourceTree = "<group>"; };
-		402B44C53810B4FE50757FFB0A5F272C /* ModernCoordinator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModernCoordinator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		41C23742B675AE8C8EBE9162E30D4270 /* Route.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Route.swift; path = ModernCoordinator/Classes/Route.swift; sourceTree = "<group>"; };
+		484D1D91603A1AAB944F42AA4E852FF1 /* ModernCoordinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModernCoordinator.release.xcconfig; sourceTree = "<group>"; };
+		4BCA4ECF3830726B352849F17CD1BE48 /* Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = Sources/Coordinator/Transition.swift; sourceTree = "<group>"; };
 		4EDF0F13C31307E1641D742FD8FDA2FE /* Pods-Coordinator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coordinator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4F9FE6784502188D78663E196C74B562 /* ModernCoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ModernCoordinator-Info.plist"; sourceTree = "<group>"; };
 		5FB15781F37A5174DE359ADA1D26843A /* Pods-Coordinator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coordinator_Tests-Info.plist"; sourceTree = "<group>"; };
 		5FBD3A312B2363CF6778B8B70D174C81 /* ModernCoordinator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModernCoordinator; path = ModernCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		615A3046FBAC3043EB6C350FF0B059F0 /* ViewCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewCoordinator.swift; path = ModernCoordinator/Classes/ViewCoordinator.swift; sourceTree = "<group>"; };
 		61B509C92867D4A70B4E21DC88A6C3B8 /* Pods-Coordinator_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Coordinator_Example"; path = Pods_Coordinator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		634A9EB3D948D569682D9B6844467E9C /* Pods-Coordinator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coordinator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6B07FEC49BF4CF391AE37F55E8896377 /* Pods-Coordinator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coordinator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7806C29F7FC072F9B44245BA6CA1A62A /* NavigationTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransition.swift; path = Sources/Coordinator/NavigationTransition.swift; sourceTree = "<group>"; };
 		79A49E1366BDFB74114ECCF8221494B8 /* Pods-Coordinator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coordinator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C8F5E5DC14FE45150F91324C2A0F90A /* BaseCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseCoordinator.swift; path = Sources/Coordinator/BaseCoordinator.swift; sourceTree = "<group>"; };
+		85E26698BEC0816A4D0FB56A019E7CA3 /* ModernCoordinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModernCoordinator.debug.xcconfig; sourceTree = "<group>"; };
+		86FE9105AA01DC43CEBB896A4AAAD54F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8AE980892041D678E182C0FA25C3CC4B /* Pods-Coordinator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Coordinator_Example.modulemap"; sourceTree = "<group>"; };
-		8C356002FCB578C6B3561AA63172D80A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		934452297CDE4C710BE477265318A268 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationCoordinator.swift; path = ModernCoordinator/Classes/NavigationCoordinator.swift; sourceTree = "<group>"; };
-		9423EDF7139BDFCB6BDA46A55FC0ED6A /* Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = ModernCoordinator/Classes/Transition.swift; sourceTree = "<group>"; };
+		91C7B5BD7D3AEC33AF61D25FC6EF027C /* ModernCoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModernCoordinator.modulemap; sourceTree = "<group>"; };
+		96E7E2F711CA2525782C98DEBD10A2A5 /* ViewTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewTransition.swift; path = Sources/Coordinator/ViewTransition.swift; sourceTree = "<group>"; };
+		9779CE902D388DDD7AEF73C3BC9DF829 /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = Sources/Coordinator/Coordinator.swift; sourceTree = "<group>"; };
 		9C7923C71CE678CFD991FC8C584885CD /* Pods-Coordinator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coordinator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D07A919EA681DD230452AAECCC3E7C2 /* UnownedRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnownedRouter.swift; path = ModernCoordinator/Classes/UnownedRouter.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A05464230A3A8E4A5536FFE8F0C4F3F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A6B3EEA8F6E0F2F65B59004889FFF7B5 /* NavigationTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransition.swift; path = ModernCoordinator/Classes/NavigationTransition.swift; sourceTree = "<group>"; };
-		A77772A3104AD4A738C8BC53E68F62DE /* ModernCoordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModernCoordinator-prefix.pch"; sourceTree = "<group>"; };
-		AE46D28E39A064490E1FD934ECC2135F /* ModernCoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ModernCoordinator-Info.plist"; sourceTree = "<group>"; };
-		B4AC43E541B19B5951CA8A355619F5EB /* ModernCoordinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModernCoordinator.debug.xcconfig; sourceTree = "<group>"; };
-		C67CEDDF6CA9C8ADC023B2D6300822D2 /* Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Router.swift; path = ModernCoordinator/Classes/Router.swift; sourceTree = "<group>"; };
+		A113EB2DD4854716F36A2090C88404B0 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationCoordinator.swift; path = Sources/Coordinator/NavigationCoordinator.swift; sourceTree = "<group>"; };
+		A200E3D87233FAA77B1372D5CA6924F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A7A423312598CBF044858DA83C8ADB0F /* StrongRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrongRouter.swift; path = Sources/Coordinator/StrongRouter.swift; sourceTree = "<group>"; };
+		ABF3CE15F974082A73286DC54FA24B3B /* ModernCoordinator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModernCoordinator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6A0E59E6682231B180EC7612DEE22B6 /* Route.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Sources/Coordinator/Route.swift; sourceTree = "<group>"; };
 		C6B60D6EF09EDB9367DB3FD6694F4B56 /* Pods-Coordinator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coordinator_Example-Info.plist"; sourceTree = "<group>"; };
 		C753B52458DABBB32941A448637EC311 /* Pods-Coordinator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coordinator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C8BC4171B2D88D2F95E2C1066739B0EC /* Pods-Coordinator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Coordinator_Tests-dummy.m"; sourceTree = "<group>"; };
+		C8BFB16ABB62D3FC3450ADDC5590B905 /* ModernCoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModernCoordinator-dummy.m"; sourceTree = "<group>"; };
 		C9DCF0B848107693EABCFBAC768F070C /* Pods-Coordinator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coordinator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CE264C007EE9B6DA7FF3D6BAB0B68C3E /* ViewCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewCoordinator.swift; path = Sources/Coordinator/ViewCoordinator.swift; sourceTree = "<group>"; };
+		D2A4C318C32E06A3EBAB90AE8D3C30E6 /* ModernCoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModernCoordinator-umbrella.h"; sourceTree = "<group>"; };
 		D9824026638FF478CABA59DD1AAB1D66 /* Pods-Coordinator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Coordinator_Example-umbrella.h"; sourceTree = "<group>"; };
 		D9FB771FE4DE52A22DEA19329F0431AE /* Pods-Coordinator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coordinator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DAABEF0605334CD4DCF3663DC3D9A83E /* BaseCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseCoordinator.swift; path = ModernCoordinator/Classes/BaseCoordinator.swift; sourceTree = "<group>"; };
-		E51664E65DF801FA3E93467B639FC8BE /* Presentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presentable.swift; path = ModernCoordinator/Classes/Presentable.swift; sourceTree = "<group>"; };
-		FB7BC2CE900B35F5CDBE23ECEAB8F022 /* ViewTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewTransition.swift; path = ModernCoordinator/Classes/ViewTransition.swift; sourceTree = "<group>"; };
+		EFCC9E1F9D5E80091DD999D1A6D34D3E /* ModernCoordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModernCoordinator-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +125,7 @@
 		1B83936685EF0F22613910845D6CE517 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				48367CDE14C9A96BA884FB9A24D1CF85 /* ModernCoordinator */,
+				8B527395A8E98ABCC5CB6892EA08B6BB /* ModernCoordinator */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -146,43 +146,6 @@
 			path = "Target Support Files/Pods-Coordinator_Tests";
 			sourceTree = "<group>";
 		};
-		48367CDE14C9A96BA884FB9A24D1CF85 /* ModernCoordinator */ = {
-			isa = PBXGroup;
-			children = (
-				DAABEF0605334CD4DCF3663DC3D9A83E /* BaseCoordinator.swift */,
-				0FC84C003703013C1B1C05BE767FD05F /* Coordinator.swift */,
-				934452297CDE4C710BE477265318A268 /* NavigationCoordinator.swift */,
-				A6B3EEA8F6E0F2F65B59004889FFF7B5 /* NavigationTransition.swift */,
-				E51664E65DF801FA3E93467B639FC8BE /* Presentable.swift */,
-				41C23742B675AE8C8EBE9162E30D4270 /* Route.swift */,
-				C67CEDDF6CA9C8ADC023B2D6300822D2 /* Router.swift */,
-				0DB088D647301BD0E0406FEDBAAE9FA3 /* StrongRouter.swift */,
-				9423EDF7139BDFCB6BDA46A55FC0ED6A /* Transition.swift */,
-				9D07A919EA681DD230452AAECCC3E7C2 /* UnownedRouter.swift */,
-				615A3046FBAC3043EB6C350FF0B059F0 /* ViewCoordinator.swift */,
-				FB7BC2CE900B35F5CDBE23ECEAB8F022 /* ViewTransition.swift */,
-				6755FAF07F514098707DB30815AA5EAD /* Pod */,
-				524527E980C9DAB3D204E71E0A3974F4 /* Support Files */,
-			);
-			name = ModernCoordinator;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		524527E980C9DAB3D204E71E0A3974F4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3F7905CE0C93E9C14CBA8A7CCB801CF5 /* ModernCoordinator.modulemap */,
-				031A97DB495E25CF91005DDA093B0C2E /* ModernCoordinator-dummy.m */,
-				AE46D28E39A064490E1FD934ECC2135F /* ModernCoordinator-Info.plist */,
-				A77772A3104AD4A738C8BC53E68F62DE /* ModernCoordinator-prefix.pch */,
-				3E49FFF98C85544C3399ACF519F1BA1B /* ModernCoordinator-umbrella.h */,
-				B4AC43E541B19B5951CA8A355619F5EB /* ModernCoordinator.debug.xcconfig */,
-				400212D4F77A08A35918B5E6DEC9E77D /* ModernCoordinator.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ModernCoordinator";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,14 +154,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6755FAF07F514098707DB30815AA5EAD /* Pod */ = {
+		8B527395A8E98ABCC5CB6892EA08B6BB /* ModernCoordinator */ = {
 			isa = PBXGroup;
 			children = (
-				8C356002FCB578C6B3561AA63172D80A /* LICENSE */,
-				402B44C53810B4FE50757FFB0A5F272C /* ModernCoordinator.podspec */,
-				A05464230A3A8E4A5536FFE8F0C4F3F1 /* README.md */,
+				7C8F5E5DC14FE45150F91324C2A0F90A /* BaseCoordinator.swift */,
+				9779CE902D388DDD7AEF73C3BC9DF829 /* Coordinator.swift */,
+				A113EB2DD4854716F36A2090C88404B0 /* NavigationCoordinator.swift */,
+				7806C29F7FC072F9B44245BA6CA1A62A /* NavigationTransition.swift */,
+				26F63E8B775F5E131542D31AC9DC9B6C /* Presentable.swift */,
+				B6A0E59E6682231B180EC7612DEE22B6 /* Route.swift */,
+				298FD08554B109317C6D83AA1C373007 /* Router.swift */,
+				A7A423312598CBF044858DA83C8ADB0F /* StrongRouter.swift */,
+				4BCA4ECF3830726B352849F17CD1BE48 /* Transition.swift */,
+				1774B0DC929D69EEABE2823194AB0448 /* UnownedRouter.swift */,
+				CE264C007EE9B6DA7FF3D6BAB0B68C3E /* ViewCoordinator.swift */,
+				96E7E2F711CA2525782C98DEBD10A2A5 /* ViewTransition.swift */,
+				ED3DC355A198BF26E32F0599F38B3AFE /* Pod */,
+				DF9FCAA684B5FE5B8ACB36EB178E2916 /* Support Files */,
 			);
-			name = Pod;
+			name = ModernCoordinator;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		AA931EAC39B10FC2B7732CEC1EA40C07 /* Products */ = {
@@ -254,6 +229,31 @@
 			);
 			name = "Pods-Coordinator_Example";
 			path = "Target Support Files/Pods-Coordinator_Example";
+			sourceTree = "<group>";
+		};
+		DF9FCAA684B5FE5B8ACB36EB178E2916 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91C7B5BD7D3AEC33AF61D25FC6EF027C /* ModernCoordinator.modulemap */,
+				C8BFB16ABB62D3FC3450ADDC5590B905 /* ModernCoordinator-dummy.m */,
+				4F9FE6784502188D78663E196C74B562 /* ModernCoordinator-Info.plist */,
+				EFCC9E1F9D5E80091DD999D1A6D34D3E /* ModernCoordinator-prefix.pch */,
+				D2A4C318C32E06A3EBAB90AE8D3C30E6 /* ModernCoordinator-umbrella.h */,
+				85E26698BEC0816A4D0FB56A019E7CA3 /* ModernCoordinator.debug.xcconfig */,
+				484D1D91603A1AAB944F42AA4E852FF1 /* ModernCoordinator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ModernCoordinator";
+			sourceTree = "<group>";
+		};
+		ED3DC355A198BF26E32F0599F38B3AFE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A200E3D87233FAA77B1372D5CA6924F2 /* LICENSE */,
+				ABF3CE15F974082A73286DC54FA24B3B /* ModernCoordinator.podspec */,
+				86FE9105AA01DC43CEBB896A4AAAD54F /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,19 +408,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21345FFA515C4A1BD80A706B948FD458 /* BaseCoordinator.swift in Sources */,
-				83C894F093E7C0E75B95273CD14735D5 /* Coordinator.swift in Sources */,
+				443FFB3B839884D63B71934CC01EEB2C /* BaseCoordinator.swift in Sources */,
+				F541939CD69C33CDE555A28FC1D16497 /* Coordinator.swift in Sources */,
 				CB3FB8ABF555845F0D1E7E69CFAA6BD8 /* ModernCoordinator-dummy.m in Sources */,
-				6C440F2A296F4353EE6DCF031775F020 /* NavigationCoordinator.swift in Sources */,
-				ED33366F98A14FA426A656F3C394E34E /* NavigationTransition.swift in Sources */,
-				C992A58AF63BA428DFD444C32C6DD045 /* Presentable.swift in Sources */,
-				541B8E4506481AD115F928B60671C499 /* Route.swift in Sources */,
-				07003B8EC8743A3B4027667180CE96A6 /* Router.swift in Sources */,
-				BD686CC039FEF6280C55CC07DBD1AA6E /* StrongRouter.swift in Sources */,
-				9BA9D4C8D0DD7369FBE3C007CAA692D9 /* Transition.swift in Sources */,
-				D439DF7DE89C292A5070215577D7F98F /* UnownedRouter.swift in Sources */,
-				9041606F9B28A97EBA809D06F77DF1CE /* ViewCoordinator.swift in Sources */,
-				36C6C7378DDD8B116A48F24AA59BE96B /* ViewTransition.swift in Sources */,
+				CFD87181E520F4CD26874148F155BFBD /* NavigationCoordinator.swift in Sources */,
+				CBF6D61ECBA2791A7BAD4B91F8BDEBE2 /* NavigationTransition.swift in Sources */,
+				96D08474A516A9A04300F5C1CFC2AB48 /* Presentable.swift in Sources */,
+				29C0381A9577A8C068ABF260C97566AC /* Route.swift in Sources */,
+				D8F79BEE75F6335E6F55771554A4E389 /* Router.swift in Sources */,
+				AAC8E73190688D33D6B53ABB2A3D3221 /* StrongRouter.swift in Sources */,
+				65FE9496A4A14D069D26EE9C5EB5C94E /* Transition.swift in Sources */,
+				2537EF821A649405E8F75754295FFF56 /* UnownedRouter.swift in Sources */,
+				022277994F7B664D27D8D4F4A9578FA4 /* ViewCoordinator.swift in Sources */,
+				C6F4B7204F7819BB7C4846154133D2B4 /* ViewTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,7 +582,7 @@
 		};
 		B78A96B427298F4548BF967132CA3F57 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 400212D4F77A08A35918B5E6DEC9E77D /* ModernCoordinator.release.xcconfig */;
+			baseConfigurationReference = 484D1D91603A1AAB944F42AA4E852FF1 /* ModernCoordinator.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -708,7 +708,7 @@
 		};
 		D834DF5FFEF8870B3FCE7A634F7396B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4AC43E541B19B5951CA8A355619F5EB /* ModernCoordinator.debug.xcconfig */;
+			baseConfigurationReference = 85E26698BEC0816A4D0FB56A019E7CA3 /* ModernCoordinator.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

@@ -5,7 +5,7 @@
 //  Created by DucPD on 02/11/2021.
 //
 import Foundation
-import Coordinator
+import ModernCoordinator
 
 protocol HomeInput {
     func toDetail()

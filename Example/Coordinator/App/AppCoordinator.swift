@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Coordinator
+import ModernCoordinator
 
 enum AppRoute: Route {
     case splash

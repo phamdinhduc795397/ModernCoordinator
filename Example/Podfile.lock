@@ -1,5 +1,5 @@
 PODS:
-  - ModernCoordinator (0.0.1)
+  - ModernCoordinator (0.0.2)
 
 DEPENDENCIES:
   - ModernCoordinator (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ModernCoordinator: 26ce2dadf1529fbc9a9c37d5291c7f45fde78a7a
+  ModernCoordinator: b4c315dff56bf22a70016371fb81793606734189
 
 PODFILE CHECKSUM: beac5da20cbba9d13ca19b0aa2da3d5a6069b47c
 

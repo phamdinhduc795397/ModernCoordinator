@@ -1,5 +1,5 @@
 import XCTest
-import Coordinator
+import ModernCoordinator
 
 class Tests: XCTestCase {
     

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Coordinator
+import ModernCoordinator
 
 protocol SplashInput {
     func fetchAPI()

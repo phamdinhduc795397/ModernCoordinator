@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Coordinator
+import ModernCoordinator
 
 enum HomeRoute: Route {    
     case home
