@@ -25,6 +25,9 @@ To integrate ModernCoordinator into your Xcode project using Carthage, add this 
 github "phamdinhduc795397/ModernCoordinator"
 ```
 
+### Swift Package Manager
+Swift Package Manager is supported.
+
 ## Author
 
 Duc Pham, phamdinhduc795397@gmail.com
