@@ -1,8 +1,8 @@
 
 Pod::Spec.new do |spec|
  spec.name         = "ModernCoordinator"
-  spec.version      = "0.0.2"
-  spec.summary      = "A compact Coordinator pattern from XCoordinator"
+  spec.version      = "0.0.3"
+  spec.summary      = "A compact Coordinator pattern from XCoordinator idea"
   spec.homepage     = 'https://github.com/phamdinhduc795397/Coordinator'
   spec.license      = "MIT"
   spec.authors      = { 'Duc Pham' => 'phamdinhduc795397@gmail.com'}
