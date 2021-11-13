@@ -1,6 +1,6 @@
 //
 //  BaseCoordinator.swift
-//  CleanArchitecture
+//  ModernCoordinator
 //
 //  Created by DucPD on 08/11/2021.
 //
@@ -13,7 +13,7 @@ open class BaseCoordinator<RouteType: Route, TransitionType: TransitionProtocol>
     public var parent: Coordinator?
     public var children: [Coordinator] = []
     
-    public var transition: Transition<RootViewController> {
+    public var transitionPerformer: Transition<RootViewController> {
         return Transition(rootViewController: rootViewController)
     }
     

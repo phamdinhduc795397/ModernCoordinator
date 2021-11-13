@@ -1,6 +1,6 @@
 //
 //  HomeCoordinator.swift
-//  CleanArchitecture
+//  ModernCoordinator
 //
 //  Created by DucPD on 08/11/2021.
 //
@@ -24,13 +24,13 @@ class HomeCoordinator: NavigationCoordinator<HomeRoute> {
         case .home:
             let homeVC = HomeViewController()
             homeVC.viewModel = HomeViewModel(router: strongRouter)
-            transition.push(homeVC)
+            transitionPerformer.push(homeVC)
         case .detail:
             let homeVC = DetailViewController()
             homeVC.viewModel = DetailViewModel(router: strongRouter)
-            transition.push(homeVC)
+            transitionPerformer.push(homeVC)
         case .back:
-            transition.pop()
+            transitionPerformer.pop()
         }
     }
 }

@@ -1,6 +1,6 @@
 //
 //  NavigationCoordinator.swift
-//  CleanArchitecture
+//  ModernCoordinator
 //
 //  Created by DucPD on 10/11/2021.
 //

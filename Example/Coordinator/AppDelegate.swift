@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Coordinator
+//  ModernCoordinator
 //
 //  Created by Duc Pham Dinh on 11/11/2021.
 //  Copyright (c) 2021 Duc Pham Dinh. All rights reserved.

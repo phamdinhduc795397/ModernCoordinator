@@ -1,6 +1,6 @@
 //
 //  ViewTransition.swift
-//  CleanArchitecture
+//  ModernCoordinator
 //
 //  Created by DucPD on 11/11/2021.
 //

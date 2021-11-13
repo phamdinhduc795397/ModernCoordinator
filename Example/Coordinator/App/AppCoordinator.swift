@@ -1,6 +1,6 @@
 //
 //  AppCoordinator.swift
-//  Presentation
+//  ModernCoordinator
 //
 //  Created by DucPD on 07/11/2021.
 //
@@ -25,11 +25,11 @@ class AppCoordinator: NavigationCoordinator<AppRoute> {
         case .splash:
             let splashVC = SplashViewController()
             splashVC.viewModel = SplashViewModel(router: strongRouter)
-            transition.setRoot(splashVC)
+            transitionPerformer.setRoot(splashVC)
         case .tabBar:
             let tabTar = TabBarController()
             tabTar.setViewControllers(createTabs(), animated: false)
-            transition.setRoot(tabTar)
+            transitionPerformer.setRoot(tabTar)
         }
     }
 
