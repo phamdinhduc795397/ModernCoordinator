@@ -2,11 +2,6 @@
 
 A lightweight navigation framework based on the Coordinator pattern and is a compact version from [XCoordinator](https://github.com/quickbirdstudios/XCoordinator).
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -19,7 +14,7 @@ pod 'ModernCoordinator'
 ```
 
 ### Carthage
-To integrate ModernCoordinator into your Xcode project using Carthage, add this to your Cartfile:
+ModernCoordinator is available through [Carthage](https://github.com/Carthage/Carthage). To install it, add this to your Cartfile: 
 
 ```
 github "phamdinhduc795397/ModernCoordinator"
