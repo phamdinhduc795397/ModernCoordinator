@@ -7,12 +7,18 @@
 
 import UIKit
 
-public protocol TransitionProtocol {
+///
+/// `RootTransition` is used to abstract any concrete transition implementation.
+///
+/// `Transition` is provided as an easily-extensible default transition type implementation.
+///
+
+public protocol RootTransition {
     associatedtype RootViewController: UIViewController
     var rootViewController: RootViewController { get set }
 }
 
-public struct Transition<RootViewController: UIViewController>: TransitionProtocol {
+public struct Transition<RootViewController: UIViewController>: RootTransition {
     public var rootViewController: RootViewController
     public init(rootViewController: RootViewController) {
         self.rootViewController = rootViewController

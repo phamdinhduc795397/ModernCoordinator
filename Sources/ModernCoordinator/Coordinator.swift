@@ -6,6 +6,11 @@
 //
 
 import UIKit
+///
+/// `Coordinator` is the protocol every coordinator conforms to.
+///
+/// It requires an object to be able to add, remove its child and can be removed themselves from parent like `removeFromSuperview`.
+///
 
 public protocol Coordinator: Presentable {
     func addChild(_ coordinator: Coordinator)

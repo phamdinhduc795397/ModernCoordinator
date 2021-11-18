@@ -6,6 +6,9 @@
 //
 
 import UIKit
+///
+/// Presentable is representing for the object that can be shown to the user.
+///
 
 public protocol Presentable {
     var viewController: UIViewController { get }

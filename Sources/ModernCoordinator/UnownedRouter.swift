@@ -7,6 +7,10 @@
 
 import Foundation
 
+///
+/// `UnownedErased` is a property wrapper to hold objects with an unowned reference when using type-erasure.
+///
+
 public typealias UnownedRouter<RouteType: Route> = UnownedErased<StrongRouter<RouteType>>
 
 @propertyWrapper

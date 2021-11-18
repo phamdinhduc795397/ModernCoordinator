@@ -6,9 +6,9 @@
 //
 
 import UIKit
-
-/// NavigationTransition offers transitions that can be used
-/// with a `UINavigationController` as rootViewController.
+///
+/// `NavigationTransition` offers transitions that can be used with a `UINavigationController` as `rootViewController`.
+///
 
 public typealias NavigationTransition = Transition<UINavigationController>
 public extension Transition where RootViewController == UINavigationController {

@@ -6,7 +6,10 @@
 //
 
 import UIKit
-
+///
+/// `StrongRouter` is a type-erasure of a given Router object and, therefore, can be used as an abstraction from a specific Router
+/// implementation without losing type information about its RouteType.
+///
 public final class StrongRouter<RouteType: Route>: Router {
     private let _trigger: (RouteType) -> Void
 

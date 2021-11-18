@@ -7,7 +7,10 @@
 
 import UIKit
 
-open class BaseCoordinator<RouteType: Route, TransitionType: TransitionProtocol>: Coordinator {
+///
+/// `BaseCoordinator` can be used as a superclass for any custom implementation of a coordinator.
+///
+open class BaseCoordinator<RouteType: Route, TransitionType: RootTransition>: Coordinator {
     public typealias RootViewController = TransitionType.RootViewController
     public var rootViewController: RootViewController
     public var parent: Coordinator?
