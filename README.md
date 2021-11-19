@@ -134,6 +134,9 @@ github "phamdinhduc795397/ModernCoordinator"
 ### Swift Package Manager
 Swift Package Manager is supported.
 
+## Acknowledments
+- [XCoordinator](https://github.com/quickbirdstudios/XCoordinator)
+
 ## Author
 
 Duc Pham, phamdinhduc795397@gmail.com
