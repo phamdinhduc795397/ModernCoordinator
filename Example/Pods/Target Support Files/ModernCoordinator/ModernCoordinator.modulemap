@@ -1,6 +1,0 @@
-framework module ModernCoordinator {
-  umbrella header "ModernCoordinator-umbrella.h"
-
-  export *
-  module * { export * }
-}
