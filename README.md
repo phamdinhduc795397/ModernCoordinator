@@ -1,6 +1,6 @@
 # ModernCoordinator
 
-A lightweight navigation framework based on the Coordinator pattern and is a compact version from [XCoordinator](https://github.com/quickbirdstudios/XCoordinator).
+A lightweight library based on the Coordinator pattern and is a compact version from [XCoordinator](https://github.com/quickbirdstudios/XCoordinator).
 
 Coordinator is creating reduce burden of navigations for UIViewController that allow groups a particular flow to visualize the transition between views.
 
