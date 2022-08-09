@@ -10,8 +10,8 @@ import UIKit
 ///
 /// `ViewCoordinator` is a base class for custom coordinators with a `UIViewController` as `rootViewController`.
 ///
-public class ViewCoordinator<RouteType: Route>: BaseCoordinator<RouteType, ViewTransition> {
-    init(rootViewController: RootViewController, initialRoute: RouteType...) {
+open class ViewCoordinator<RouteType: Route>: BaseCoordinator<RouteType, ViewTransition> {
+    public init(rootViewController: RootViewController, initialRoute: RouteType...) {
         super.init(rootViewController: rootViewController, initialRoute: initialRoute)
     }
 }

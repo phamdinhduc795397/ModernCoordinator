@@ -22,10 +22,10 @@ open class BaseCoordinator<RouteType: Route, TransitionType: RootTransition>: Co
     
     public init(rootViewController: RootViewController, initialRoute: [RouteType]) {
         self.rootViewController = rootViewController
-        _ = initialRoute.map(prepareTransition)
+        _ = initialRoute.map(performTransition)
     }
     
-    open func prepareTransition(for route: RouteType) {
+    open func performTransition(for route: RouteType) {
         fatalError("Please override the \(#function) method.")
     }
     
@@ -44,6 +44,8 @@ open class BaseCoordinator<RouteType: Route, TransitionType: RootTransition>: Co
 
     public func removeChild(_ coordinator: Coordinator) {
         if let index = children.firstIndex(where: { $0.viewController === coordinator.viewController }) {
+            let child = children[index]
+            child.removeAllChild()
             children.remove(at: index)
         } else {
             print("Couldn't remove coordinator: \(coordinator). It's not a child coordinator.")
@@ -55,6 +57,7 @@ open class BaseCoordinator<RouteType: Route, TransitionType: RootTransition>: Co
     }
 
     public func removeAllChild() {
+        children.forEach { $0.removeAllChild() }
         children.removeAll()
     }
     
@@ -71,7 +74,7 @@ extension BaseCoordinator: Router {
     public typealias RouteType = RouteType
     
     public func trigger(_ route: RouteType) {
-        prepareTransition(for: route)
+        performTransition(for: route)
     }
     
     public var strongRouter: StrongRouter<RouteType> {

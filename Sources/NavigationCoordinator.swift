@@ -16,3 +16,4 @@ open class NavigationCoordinator<RouteType: Route>: BaseCoordinator<RouteType, N
         rootViewController.isNavigationBarHidden = isNavigationBarHidden
     }
 }
+
