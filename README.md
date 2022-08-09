@@ -24,7 +24,7 @@ class HomeCoordinator: NavigationCoordinator<HomeRoute> {
         super.init(rootViewController: rootViewController, initialRoute: .home)
     }
     
-    override func prepareTransition(for route: HomeRoute) {
+    override func performTransition(for route: HomeRoute) {
         switch route {
         case .home:
             let homeVC = HomeViewController()
